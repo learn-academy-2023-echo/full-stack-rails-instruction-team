@@ -17,12 +17,12 @@
 
 ### NEW
 
-- controller
-- route
-- view
+- controller - Herb.new
+- route - herb/new was more specific than the show route and so had to be higher in the list
+- view - https://guides.rubyonrails.org/form_helpers.html
 
 ### CREATE
 
-- controller
-- route
-- view
+- controller - create method, strong params, private to protect the data
+- route - post request
+- view - submit button on the new page, redirect in the controller
