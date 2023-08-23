@@ -1,24 +1,28 @@
-# README
+# Rails Full-Stack
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### RESTful Route
 
-Things you may want to cover:
+### INDEX
 
-* Ruby version
+- controller - Herb.all
+- route - get request
+- view - iterated over the active record array to display each herb name
 
-* System dependencies
+### SHOW
 
-* Configuration
+- controller - Herb.find(params[:id])
+- route - id param required
+- view - display content
+- user experience - link aliases for navigation
 
-* Database creation
+### NEW
 
-* Database initialization
+- controller
+- route
+- view
 
-* How to run the test suite
+### CREATE
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- controller
+- route
+- view
